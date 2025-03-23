@@ -1,31 +1,6 @@
--n
--a
--m
--eme: NodeJS with Grunt
+-n-a-m-eme: NodeJS ngon Grunt bak: push: cabang: [ "utama" ] tarek_permintaan: cabang: [ "utama" ] tugas: bangun: jalan-on: strategi ubuntu-terbaru: matriks: versi-simpul: [18.x, 20.x nan catatan x-}:2. : tindakan/peugot-simpul@v4 deungon: versi-simpul: ${{ matriks.versi-simpul }} - nan: Peugot jalan: -n-a-m-eme: NodeJS ngon Grunt bak: push: cabang: [ "utama" ] tarek_permintaan: cabang: [ "utama" ] tugas: bangun: jalan-on: strategi ubuntu-terbaru: matriks: versi-simpul: [18.x, 20.x nan catatan x-}:2. : tindakan/peungaturan-simpul@v4 deungon: versi-simpul: ${{ matriks.versi-simpul }} - nan: Peugot jalan: |
+        npm pasang grunt 0 ￼ Hase untuk Che ulee 1 ulee 2 sel 1 sel 2 sel 3 sel 4 ck gagal bak ulee 1 ulee 2 sel 4/dalam sel kerja 4 yml ￼ Tindakan GitHub / .github/alur kerja/npm-. Berkas alur kerja hana sah Kamoe na salah bak format yaml online kamoe.
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x, 22.x]
-
-    steps:
-    - uses: actions/checkout@v4
-
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
-
-    - name: Build
-      run: |
-        npm install
-        grunt
+ 
